@@ -1,0 +1,46 @@
+ufw est til actif?
+ssh // 
+
+verif os c'est bien debian 
+verif tebandam fais partit de user42 et sudo 
+
+comment creer un nouvelle utilisateur 
+comment ajouter un user a un groupe 
+
+
+comment acceder aux deux fichiers qui concerne la politique de mdp
+
+
+comment creer un groupe 
+comment verif que ce nouveau user appartient au group
+
+comment modifier le hostname 
+comment afficher les partitions 
+
+changer le hostname 
+---------------------------------------------------------------------------
+
+
+- sudu ufw status 
+ou sudo systemctl status ufw 
+-sudo systemctl status ssh 
+uname -a
+getent group user42 
+sudo adduser name 
+sudo usermod -aG namegroup nameuser
+
+vim /etc/pam.d/common-password
+vim /etc/login.defs
+
+sudo groupadd namegroup
+getent group nanegroup 
+
+vim /etc/hostname
+
+sudo ufw delete
+
+EFFACER groupe EVALUATING 
+
+sudo ufw allow 8080
+
+sudo systemctl restart sshd  (restart le ssh)
